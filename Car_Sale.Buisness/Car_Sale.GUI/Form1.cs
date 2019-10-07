@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Car_Sale.Business;
+using Car_Sale.DAL;
 using System.Collections;
 
 namespace Car_Sale.GUI
@@ -15,8 +16,8 @@ namespace Car_Sale.GUI
     
     public partial class Form1 : Form
     {
-        List<Car> MyCars = new List<Car>();
 
+        Repostory Respo = new Repostory();
         public Form1()
         {
             InitializeComponent();
@@ -26,16 +27,24 @@ namespace Car_Sale.GUI
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-            MyCars.Add(new Car() { Brand = textBox1.Text });
+        {   
+            Car newCar = new Car() { Brand = textBox1.Text };
+            Respo.Save(newCar);
             textBox1.Clear();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
+            Show();
+            
+        }
+        private void Show()
+        {
             listBox1.Items.Clear();
-            foreach (Car x in MyCars)
-            {               
+            List<Car> FetchedList = Respo.GetList();
+            foreach(Car x in FetchedList)
+            {
                 listBox1.Items.Add(x.Brand);
             }
         }

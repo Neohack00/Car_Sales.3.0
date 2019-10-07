@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sale.Business", "Car_Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sale.GUI", "Car_Sale.GUI\Car_Sale.GUI.csproj", "{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sale.DAL", "Car_Sale.DAL\Car_Sale.DAL.csproj", "{169F9F01-E7AE-47B1-A319-5BB479908A11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F9F01-E7AE-47B1-A319-5BB479908A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F9F01-E7AE-47B1-A319-5BB479908A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F9F01-E7AE-47B1-A319-5BB479908A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F9F01-E7AE-47B1-A319-5BB479908A11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
