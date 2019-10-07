@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sales_3.0", "Car_Sales_3.0\Car_Sales_3.0.csproj", "{57DC6450-B5A4-46E1-A90C-FC00770934F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sale.Business", "Car_Sales_3.0\Car_Sale.Business.csproj", "{57DC6450-B5A4-46E1-A90C-FC00770934F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Car_Sale.GUI", "Car_Sale.GUI\Car_Sale.GUI.csproj", "{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{57DC6450-B5A4-46E1-A90C-FC00770934F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57DC6450-B5A4-46E1-A90C-FC00770934F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57DC6450-B5A4-46E1-A90C-FC00770934F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C9682F-DCCB-4D8C-A40A-95FEB39E521F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

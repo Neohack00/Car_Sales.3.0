@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Car_Sales_3._0
+namespace Car_Sales.Business
 {
-    public class Class1
+    public class Car
     {
+        public string RegisterNumber { get; set; }
+        public string Brand { get; set; }
+        public int SpeedKm { get; set; }
     }
 }
